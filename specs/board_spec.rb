@@ -5,14 +5,9 @@ require_relative ('../player.rb')
 
 class BoardTest < MiniTest::Test
 
-  def test_number_of_tiles
-    board = Board.new()
-    assert_equal(16, board.number_of_tiles())
-  end
-
   def test_length_of_consequences_array
     board = Board.new()
-    assert_equal(16, board.tile_consequences.length())
+    assert_equal(18, board.tiles.length())
   end
 
   def test_land_on_plain_tile
