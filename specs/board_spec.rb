@@ -39,9 +39,4 @@ class BoardTest < MiniTest::Test
     assert_equal(3, player.update_position(inc))
   end
 
-
-  
-
-
-
 end
