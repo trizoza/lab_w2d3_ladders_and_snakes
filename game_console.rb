@@ -4,10 +4,10 @@ require_relative ('board.rb')
 ############## INPUT DEFINITION ###################
 
 puts "Enter the name of the first player:"
-name1 = gets.chomp
+name1 = gets.chomp.capitalize()
 
 puts "Enter the name of the second player:"
-name2 = gets.chomp
+name2 = gets.chomp.capitalize()
 
 player1 = Player.new(name1)
 player2 = Player.new(name2)
